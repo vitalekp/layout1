@@ -546,6 +546,10 @@
     font-size: 22px;
     line-height: 32px;
     color: #2b292d99; }
+    @media screen and (min-width: 1400px) {
+      .order__terms {
+        font-size: 14px;
+        line-height: 22px; } }
 
 .footer {
   display: flex;

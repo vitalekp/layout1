@@ -81,6 +81,11 @@
         font-size: 22px;
         line-height: 32px;
         color: $text-color-light-grey;
+
+        @include for-large-up {
+            font-size: 14px;
+            line-height: 22px;
+        }
     }
 
     &__terms-link {
