@@ -1,0 +1,40 @@
+.action-button {
+    width: 160px;
+    height: 48px;
+    border-radius: 2px;
+    background-color: #3040c4;
+    font-weight: 700;
+    font-size: 18px;
+    color: $color-white;
+    outline: none;
+    border: none;
+}
+
+.action-button-white {
+    width: 158px;
+    height: 48px;
+    border-radius: 2px;
+    background-color: $color-white;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    outline: none;
+    border: none;
+}
+
+.wrapper {
+    max-width: 1400px;
+    background-color: #f4f5f7;
+}
+
+.hide_desktop {
+    @include for-large-up {
+        display: none;
+    }
+}
+
+.hide_mobile {
+    @include for-large-down {
+        display: none;
+    }
+}
