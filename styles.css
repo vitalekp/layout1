@@ -674,7 +674,8 @@
   @media screen and (min-width: 1400px) {
     .social-links {
       margin-left: auto;
-      margin-bottom: 0; } }
+      margin-bottom: 17px;
+      margin-top: 17px; } }
   .social-links__items {
     margin-left: 20px; }
     .social-links__items:first-child {
