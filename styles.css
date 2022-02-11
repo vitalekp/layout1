@@ -387,23 +387,23 @@
     position: absolute;
     right: 0; }
 
-.audiences {
+.audience {
   padding: 50px 15px 35px 15px;
   background: #00a1c612; }
   @media screen and (min-width: 1400px) {
-    .audiences {
+    .audience {
       padding: 108px 0px 110px 0px; } }
   @media screen and (min-width: 1400px) {
-    .audiences__content {
+    .audience__content {
       max-width: 555px;
       margin: auto; } }
-  .audiences__subtitle {
+  .audience__subtitle {
     font-weight: 700;
     font-size: 22px;
     line-height: 34px;
     text-align: center;
     color: #2b292d; }
-  .audiences__title {
+  .audience__title {
     margin-top: 17px;
     font-weight: 700;
     font-size: 40px;
@@ -412,49 +412,49 @@
     letter-spacing: -0.357143px;
     color: #2b292d; }
     @media screen and (min-width: 1400px) {
-      .audiences__title {
+      .audience__title {
         margin-top: 24px;
         font-size: 56px;
         line-height: 56px;
         letter-spacing: -0.5px; } }
-  .audiences__description {
+  .audience__description {
     margin-top: 18px;
     font-size: 24px;
     line-height: 34px;
     text-align: center;
     color: #2b292d; }
     @media screen and (min-width: 1400px) {
-      .audiences__description {
+      .audience__description {
         margin-top: 30px; } }
   @media screen and (min-width: 1400px) {
-    .audiences__form {
+    .audience__form {
       display: flex;
       justify-content: center; } }
-  .audiences__button {
+  .audience__button {
     margin-top: 30px;
     width: 100%; }
     @media screen and (min-width: 1400px) {
-      .audiences__button {
+      .audience__button {
         margin-top: 34px;
         width: 160px; } }
-    .audiences__button:last-child {
+    .audience__button:last-child {
       margin-top: 12px; }
       @media screen and (min-width: 1400px) {
-        .audiences__button:last-child {
+        .audience__button:last-child {
           margin-top: 34px;
           margin-left: 10px;
           width: 158px; } }
-  .audiences__block {
+  .audience__block {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center; }
     @media screen and (min-width: 1400px) {
-      .audiences__block {
+      .audience__block {
         flex-direction: row;
         justify-content: center;
         margin-top: 111px; } }
-  .audiences__item {
+  .audience__item {
     width: 290px;
     padding-top: 22px;
     margin-bottom: 15px;
@@ -467,17 +467,17 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     border-radius: 8px; }
     @media screen and (min-width: 1400px) {
-      .audiences__item {
+      .audience__item {
         width: 262px;
         height: 300px;
         margin-right: 30px;
         margin-bottom: 0; }
-        .audiences__item:last-child {
+        .audience__item:last-child {
           margin-right: 0; } }
-    .audiences__item:hover {
+    .audience__item:hover {
       background: #3141c5;
       box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07); }
-  .audiences__item-title {
+  .audience__item-title {
     margin-top: 22px;
     margin-bottom: 33px;
     font-weight: bold;
@@ -545,7 +545,8 @@
   .order__terms {
     font-size: 22px;
     line-height: 32px;
-    color: #2b292d99; }
+    color: #2b292d99;
+    margin-top: 10px; }
     @media screen and (min-width: 1400px) {
       .order__terms {
         font-size: 14px;
