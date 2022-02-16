@@ -57,7 +57,7 @@
         line-height: 26px;
         margin: 0;
         margin-left: 15px;
-        color: #3142c6;
+        color: $text-color-blue;
     }
 
     &__advantage-description {
@@ -66,7 +66,7 @@
         margin-top: 8px;
         margin-bottom: 0;
         padding-bottom: 20px;
-        border-bottom: 3px solid #3142c6;
+        border-bottom: 3px solid $border-color-blue;
     }
 
     &__advantage-item {
