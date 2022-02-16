@@ -1,4 +1,4 @@
-# Layout-1
+# Layout 1
 ## [Site link](https://vitalekp.github.io/layout1/)
 Layout supports mobile(320px) and desktop(1400px) versions
 
